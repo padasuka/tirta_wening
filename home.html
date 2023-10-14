@@ -1,0 +1,1365 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="utf-8" http-equiv="encoding">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name='viewport' content='width=device-width, initial-scale=1' />
+<meta name='google' content='notranslate' />
+
+
+<link rel="shortcut icon" href="padasuka/images/logo.png"/>
+<link rel="stylesheet" href="padasuka/css/custom.css">
+<link rel="stylesheet" href="padasuka/css/bootstrap.css">
+<link rel="stylesheet" href="padasuka/css/font-awesome.min.css">
+<link rel="stylesheet" href="padasuka/css/fancy.css">
+<link rel="stylesheet" href="padasuka/css/leaflet.css"/>
+<link rel="stylesheet" href="padasuka/css/mapbox-gl.css"/>
+<link rel="stylesheet" href="padasuka/css/peta.css">
+<link rel="stylesheet" href="padasuka/css/menu.css">
+<link rel="stylesheet" href="padasuka/css/style.css">
+<link rel="stylesheet" href="padasuka/css/standar-color.css">
+
+<link rel="stylesheet" href="padasuka/css/hijau.css">
+
+<!-- Pilihan Warna -->
+<link href="padasuka/css/hijau.css" rel="stylesheet alternate" title="hijau"/>
+<link href="padasuka/css/biru.css" rel="stylesheet alternate" title="biru"/>
+<link href="padasuka/css/merah.css" rel="stylesheet alternate" title="merah"/>
+<link href="padasuka/css/pink.css" rel="stylesheet alternate" title="pink"/>
+<link href="padasuka/css/dark.css" rel="stylesheet alternate" title="dark"/>
+<!-- --><link rel="stylesheet" href="padasuka/css/vmenumode.css">
+
+<!-- File ini dibiarkan kosong dan jangan di hapus ! -->
+<link rel="stylesheet" href="padasuka/css/responsive.css">
+<script>
+
+
+</script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ if (window.scrollY == 0) window.scrollTo(0,1); } </script>
+<script src="padasuka/js/jquery-first.min.js"></script>
+<script src="padasuka/js/customize.js"></script>
+<script language='javascript' src="padasuka/js/jquery.cycle2.min.js"></script>
+<script language='javascript' src="padasuka/js/jquery.cycle2.carousel.js"></script>
+<script src="padasuka/js/bootstrap.min.js"></script>
+<script src="padasuka/js/metisMenu.min.js"></script>
+<link rel="stylesheet" type="text/css" href="padasuka/css/dataTables.bootstrap.min.css">
+<script src="padasuka/js/jquery.dataTables.min.js"></script>
+<script src="padasuka/js/dataTables.bootstrap.min.js"></script>
+<script language='javascript' src="padasuka/js/jquery.min.js"></script>
+<script src="padasuka/js/jquery.sticky.js"></script>
+<script src="padasuka/js/script.js"></script>
+<script src="padasuka/js/leaflet.js"></script>
+<script src="padasuka/js/layout.js"></script>
+<script src="padasuka/js/jquery.colorbox.js"></script>
+<script src="padasuka/js/leaflet-providers.js"></script>
+<script src="padasuka/js/highcharts/highcharts.js"></script>
+<script src="padasuka/js/highcharts/highcharts-3d.js"></script>
+<script src="padasuka/js/highcharts/exporting.js"></script>
+<script src="padasuka/js/highcharts/highcharts-more.js"></script>
+<script src="padasuka/js/highcharts/sankey.js"></script>
+<script src="padasuka/js/highcharts/organization.js"></script>
+<script src="padasuka/js/highcharts/accessibility.js"></script>
+<script src="padasuka/js/mapbox-gl.js"></script>
+<script src="padasuka/js/leaflet-mapbox-gl.js"></script>
+<script src="padasuka/js/peta.js"></script>
+<script src="padasuka/js/jquery.validate.min.js?v1a8dc8a74a2bb8fee9bbb298385174a3"></script>
+<script src="padasuka/js/validasi.js?v64c1f078be7e4590168e5451d602a98e"></script>
+<script src="padasuka/js/localization/messages_id.js?vc36d3dbfc8e5a7d22a5601604aee8f8f"></script>
+<script src="padasuka/js/script.js?vdc6580fb4d6ba79e6e2d3d1430c01cbd"></script>
+
+<script src="padasuka/js/fancybox.js"></script>
+<script type="text/javascript" src="padasuka/js/jquery-bt.js"></script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="padasuka/js/sdk.js#xfbml=1&version=v3.2&appId=328618625940706&autoLogAppEvents=1"></script>	<script type="text/javascript">
+var csrfParam = 'sidcsrf';
+var getCsrfToken = () => document.cookie.match(new RegExp(csrfParam +'=(\\w+)'))[1]
+</script>
+<script src="padasuka/js/anti-csrf.js?v40fdecf5f3d7feb30f54550ffc9220e6"></script>
+
+</head>
+
+<body>
+<div id="tirta-wening">
+<div class="rowabsolute homestyle">
+<div class="homestyle-backg hover-height"></div>
+
+
+
+<script>
+$(document).ready(function(){
+$("#bload").delay(300).fadeOut();
+})
+</script>
+
+<div class="headertop bggrad-color1 bordergrey1 flexleft">
+<div class="topleft1 flexleft">
+<div class="topleft-inner bgcolor-3 flexcenter" onclick="setVmenuMode(true)" id="vmenuBtn">
+<img src="https://drive.google.com/uc?export=download&id=1LC86NdZzp5Wtcv8MARuFrq-X6Z_PiY4Q"/>
+</div>
+</div>
+<a href="#" data-toggle="modal" data-target="#menum">
+<div class="topleft2 flexleft">
+<div class="topleft-inner bgcolor-3 flexcenter">
+<img src="https://drive.google.com/uc?export=download&id=1LC86NdZzp5Wtcv8MARuFrq-X6Z_PiY4Q"/>
+</div>
+</div>
+</a>
+<div class="topdate flexleft">
+<div class="clock">
+<div class="wrap">
+<span class="hour"></span><span class="minute"></span><span class="second"></span><span class="dot"></span>
+</div>
+</div>
+<div class="desktop-only">
+<div id="topdate" class="color-white"></div>
+</div>
+</div>
+<div class="headertopright flexleft">
+
+<div class="desktop-only">
+<div class="toplink flexleft">
+<!--
+<a class="flexleft" href="">
+<div class="toplink-item bgtoska flexleft">
+<p>Title</p>
+</div>
+</a>
+-->
+<!-- bgtoska bgpink bgyellow bgungu bgmerah bghijau bgbiru bgorange -->
+
+<a class="flexleft" href="https://forms.gle/AYUyptbLy4QupctFA">
+<div class="toplink-item bgyellow flexleft">
+<p>E-Tirta-wening</p>
+</div>
+</a>
+<a class="flexleft" href="https://forms.gle/AYUyptbLy4QupctFA">
+<div class="toplink-item bgyellow flexleft">
+<p>E-Mitra</p>
+</div>
+</a>
+<a class="flexleft" href="https://forms.gle/AYUyptbLy4QupctFA">
+<div class="toplink-item bgyellow flexleft">
+<p>Dashboard</p>
+</div>
+</a>
+<div class="flexcenter" data-toggle="modal" data-target="#searching">
+<div class="toplink-item flexcenter tip-bottom" data-toggle="tooltip" data-original-title="Pencarian Artikel" style="padding:0;">
+<svg viewBox="0 0 56.966 56.966" style="height:20px;opacity:0.6;"><path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/></svg>
+</div>
+</div>
+</div>
+</div>
+<div class="colorchange flexcenter">
+<div class="desktop-only">
+<div class="tocolor flexcenter">
+<div class="colors flexcenter">
+<a class="flexcenter" data-val="pink" href="javascript:void(0);">
+<div class="tocolor-item pinkcolor"></div>
+</a>
+</div>
+<div class="colors flexcenter">
+<a class="flexcenter" data-val="biru" href="javascript:void(0);">
+<div class="tocolor-item birucolor"></div>
+</a>
+</div>
+<div class="colors flexcenter">
+<a class="flexcenter" data-val="merah" href="javascript:void(0);">
+<div class="tocolor-item merahcolor"></div>
+</a>
+</div>
+<div class="colors flexcenter">
+<a class="flexcenter" data-val="hijau" href="javascript:void(0);">
+<div class="tocolor-item hijaucolor"></div>
+</a>
+</div>
+</div>
+</div>
+<div class="dark-tombol flexcenter">
+<div class="colors flexcenter">
+<a class="flexcenter" data-val="dark" href="javascript:void(0);">
+<div class="todark flexcenter tip-bottom" data-toggle="tooltip" data-original-title="Tampilan Gelap">
+<img src="padasuka/images/tema-cahaya.png"/>
+</div>
+</a>
+</div>
+</div>
+<div class="light-tombol flexcenter">
+<div class="colors flexcenter">
+<a class="flexcenter" data-val="hijau" href="javascript:void(0);">
+<div class="todark flexcenter tip-bottom" data-toggle="tooltip" data-original-title="Tampilan Terang">
+<img src="padasuka/images/tema-cahaya.png"/>
+</div>
+</a>
+</div>
+</div>
+</div>
+
+<div class="desktop-only flexcenter" data-toggle="modal" data-target="#visitor">
+<div class="itemtop borderwhite flexcenter tip-bottom" data-toggle="tooltip" data-original-title="Statistik Pengunjung" onclick="visitoropen()">
+<svg viewBox="0 0 24 24"><path d="M3,21H6V18H3M8,21H11V14H8M13,21H16V9H13M18,21H21V3H18V21Z"/></svg>
+</div>
+</div>
+<a class="desktop-only flexcenter" href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="itemtop borderwhite flexcenter tip-bottom" data-toggle="tooltip" data-original-title="Login Administrator">
+<svg viewBox="0 0 24 24"><path d="M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10A2,2 0 0,1 6,8H15V6A3,3 0 0,0 12,3A3,3 0 0,0 9,6H7A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,17A2,2 0 0,0 14,15A2,2 0 0,0 12,13A2,2 0 0,0 10,15A2,2 0 0,0 12,17Z"/></svg>
+</div>
+</a>
+<div class="flexcenter" data-toggle="modal" data-target="#setting">
+<div class="itemtop borderwhite flexcenter tip-bottom" data-toggle="tooltip" data-original-title="Pengaturan">
+<p><img src="https://drive.google.com/uc?export=download&amp;id=1MTe12tKFpNM_aOwaW-vrRoFvnlk06Smi" style="width: 29.0185px; height: 26.25px;"><br></p></div>
+</div>
+</div>
+
+
+
+<div class="bigmodal">
+<div class="modal right fade" id="setting" role="dialog" aria-labelledby="setting" aria-hidden="true" data-backdrop="false">
+	<div class="modal-dialog" role="document">
+	<div class="modal-absolute bggrad-color2 bordergrey1">
+		<div class="modalhead bgcolor-1 flexcenter"><h1></h1>
+				<div class="modalfoot bgcolor-1 bordergrey1 flexcenter" data-dismiss="modal" aria-label="Close">
+			<div class="close-btn bgcolor-1"></div>
+		</div>
+		</div>
+		<div class="inner-modal pengaturan">
+		<div class="withscroll">
+		<div class="padding-10">
+			
+<div class="withscroll-padding">
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/317037054_530914045837368_9082813886812184645_n.jpg?ccb=11-4&oh=01_AdSYNauB_KtT_Fic99G-KU_ORd2fk8LQ_mkMdbVVuBd4lw&oe=65373BBD&_nc_sid=000000&_nc_cat=101" alt="Aries">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Ketua Tirta wening</h2>
+<p>Aries</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/362650100_1297263354313505_10688155149809334_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdT9e-XTrgC-BExoJWjYooUWb8RMC8OtOBqymMCaygnVJA&oe=65374615&_nc_sid=000000&_nc_cat=109" alt="Nama">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Sekretaris</h2>
+<p>Nama</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/378091033_1481912509209185_7825406690654784969_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdR67rELELnQ-BoZprebBpHkBuhGyAyqBnUzVhqrrNJqOQ&oe=653745C2&_nc_sid=000000&_nc_cat=105" alt="Nama">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Bendahara</h2>
+<p>Nama</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/358361147_1077682996733061_2646042546276527769_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdRwCcvsHWTP-3zGOC0IeTzFsIqBudptSrjW4CowdWW0Dw&oe=653731E8&_nc_sid=000000&_nc_cat=111" alt="NYOMAN SURYANTE">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Korlap Kahuripan</h2>
+<p>Khang hannna</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/370302873_1515712769188751_7080131217151204258_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdQq6BBPX2r84y8hkA4Y68EqaoSENe01odRygnMLeMEMFA&oe=6537300E&_nc_sid=000000&_nc_cat=102" alt="Nama">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Mitra</h2>
+<p>Nama</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/363032071_1047775543059162_3313485063165147957_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdT21iRr-lNuGGMaUuVnGT6GkILmbAl0cNYz6dyNhlHxaQ&oe=65374DE0&_nc_sid=000000&_nc_cat=108" alt="Santi Ratna S">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Mitra</h2>
+<p>Santi Ratna S</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/386660087_3050185561792910_8702854363068769077_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSXbzqTr07XebH6uugBlA5w10qXsjZi_wE2eyK_uxE4Fw&oe=6537541C&_nc_sid=000000&_nc_cat=111" alt="Nurjamilah">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Mitra</h2>
+<p>Nurjamilah</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/377341634_971704704055475_1394883871762634314_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdSQy-yrhIAfudYxD4lk3Sr0XfM_zi5dRfcGwl7JFvx7kg&oe=6537477B&_nc_sid=000000&_nc_cat=102" alt="Mama Naima">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Mitra</h2>
+<p>Mama Naima</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="https://pps.whatsapp.net/v/t61.24694-24/361198928_1002516514256849_5023893245400578838_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdTVeCtznyjkFRldRBgkCx7Uu4PCZIev5G988xjnjloGeQ&oe=6537386F&_nc_sid=000000&_nc_cat=101" alt="KETUT NITRI">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Mitra</h2>
+<p>Nama</p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="perangkat">
+<div class="rowsame">
+<div class="perangkat-image">
+<img src="padasuka/images/pupuh.png" alt="Pupun Suminar">
+</div>
+<div class="perangkat-title flexleft">
+<div>
+<h2>Mitra</h2>
+<p>Pupun Suminar </p>
+<div class="flexleft">
+<div class="tidakada flexleft bgmerah">Aktif</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>			</div>
+</div>
+<div class="modalfoot bgwhite bordergrey1 flexcenter" data-dismiss="modal" aria-label="Close">
+<div class="close-btn bgcolor-1"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+		</div>	
+		</div>
+		</div>
+	
+	</div>
+	</div>
+</div>
+</div>
+
+<div class="bigmodal">
+<div class="modal right fade" id="visitor" role="dialog" aria-labelledby="visitor" aria-hidden="true" data-backdrop="false">
+	<div class="modal-dialog" role="document">
+	<div class="modal-absolute bggrad-color2 bordergrey1">
+		<div class="modalhead bgcolor-1 flexcenter"><h1>Statistik Pengunjung</h1></div>
+		<div class="inner-modal visitor">
+		<div class="withscroll">
+		<div class="padding-10">
+			
+<div class="widget-box bgwhite bordergrey1">
+	<div class="widget-head bggrad-color2 flexleft">
+	<svg viewBox="0 0 24 24">
+		<path d="M3,21H6V18H3M8,21H11V14H8M13,21H16V9H13M18,21H21V3H18V21Z" />
+	</svg>
+	<h1></h1>
+	</div>
+	<div class="widget-inner">
+			<table style="width: 100%;" cellpadding="0" cellspacing="0" class="table-noline" >
+				<tr>
+					<td>Hari ini</td><td style="width:20px;text-align:center;">:</td><td>192</td>
+				</tr>
+				<tr>
+					<td>Kemarin</td><td style="width:20px;text-align:center;">:</td><td>165</td>
+				</tr>
+				<tr>
+					<td>Total</td><td style="width:20px;text-align:center;">:</td><td>440.332</td>
+				</tr>
+				<tr>
+					<td>Sistem Operasi</td><td style="width:20px;text-align:center;">:</td><td>Windows 10</td>
+				</tr>
+				<tr>
+					<td>IP Address</td><td style="width:20px;text-align:center;">:</td><td>125.164.18.191</td>
+				</tr>
+				<tr>
+					<td>Browser</td><td style="width:20px;text-align:center;">:</td><td>Chrome 117.0.0.0</td>
+				</tr>
+			</table>
+	</div>
+</div>		</div>	
+		</div>
+		</div>
+		<div class="modalfoot bgcolor-1 bordergrey1 flexcenter" data-dismiss="modal" aria-label="Close">
+			<div class="close-btn bgcolor-1"></div>
+		</div>	
+	</div>
+	</div>
+</div>
+</div>
+
+<div class="formenu bigmodal">
+<div class="modal left fade" id="menum" role="dialog" aria-labelledby="menum" aria-hidden="true" data-backdrop="false">
+<div class="modal-dialog" role="document">
+<div class="modal-absolute bggrey1 bordergrey1">
+
+<div class="modalhead bgcolor-1 flexcenter"><h2></h2>
+<div class="modalfoot bgcolor-1 bordergrey1 flexcenter" data-dismiss="modal" aria-label="Close">Close
+<div class="close-btn bgcolor-3"></div>
+</div>
+</div>
+
+<div class="inner-modal">
+<div class="withscroll">
+<div class="padding-10">
+
+<div class="relative-hidden">
+<div class="rowsame mlr-min-5">
+<div class="flexitem-menu bgbiru">
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="flexitem-menu-inner flexcenter">
+E-Tirta-wening
+</div>
+</a>
+</div>
+<div class="flexitem-menu bgorange">
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="flexitem-menu-inner flexcenter">
+E-Mitra
+</div>
+</a>
+</div>
+</div>
+</div>
+
+
+
+<div class="relative-hidden">
+
+<div class="mobile-menu">
+
+<nav class="navbar">
+<ul>
+<li class="dropdown bgwhite-transparent">
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Profil<span class='caret'></span></a>
+<ul class="dropdown-menu" style="background:rgba(0,0,0,0.2);margin-top:10px;padding:15px 20px 8px;">
+<p><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Tentang kami </a></p>
+<p><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Visi dan Misi </a></p>
+<p><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Sambutan </a></p>
+<p><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Peta wilyah </a></p>
+</ul>
+</li>
+
+<li class="bgwhite-transparent"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Berita terbaru</a></li>
+<li class="bgwhite-transparent"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Informasi</a></li>
+<li class="dropdown bgwhite-transparent">
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Media<span class='caret'></span></a>
+<ul class="dropdown-menu" style="background:rgba(0,0,0,0.2);margin-top:10px;padding:15px 20px 8px;">
+<p><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Gallery</a></p>
+<p><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Youtube</a></p>
+
+</ul>
+</li>
+<li class="bgwhite-transparent"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Transfaransi</a></li>
+
+<li class="bgwhite-transparent"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Peta</a></li>
+<li class="bgwhite-transparent"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Galeri</a></li>
+
+<li class="bgwhite-transparent"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Pengaduan</a></li>
+<li class="dropdown bgwhite-transparent">
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Data warga<span class='caret'></span></a>
+<ul class="dropdown-menu" style="background:rgba(0,0,0,0.2);margin-top:10px;padding:15px 20px 8px;">
+<p><a href="hubungan-dalam-kk">Hubungan Dalam KK</a></p>
+<p><a href="rentang-umur">Umur Kategori</a></p>
+<p><a href="kategori-umur">Umur Kategori</a></p>
+<p><a href="pendidikan-dalam-kk">Pendidikan</a></p>
+<p><a href="#">Pekerjaan</a></p>
+<p><a href="#">Status Perkawinan</a></p>
+<p><a href="#">Agama</a></p>
+<p><a href="#">Jenis Kelamin</a></p>
+<p><a href="#">Golongan Darah</a></p>
+<p><a href="#">Akta Kelahiran</a></p>
+</ul>
+</li>
+
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Arsip</a></li>
+</ul>
+</nav>
+</div>
+
+</div>		</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="modalcenter">
+<div class="modal fade" id="searching" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="false">
+<div class="modal-dialog" style="background:rgba(0,0,0,0.8);">
+<div class="modal-absolute">
+<div class="searchfull flexcenter">
+<div>
+<div style="position:relative">
+<form method=get action="https://sites.google.com/view/tirta-wening-padasuka/home">
+<input type="text" name="cari" maxlength="50" class="form-control bgcolor-1" value="" placeholder="Cari Artikel">
+<button type="submit" class="to-search bgcolor-3 flexcenter">
+<svg x="0px" y="0px" viewBox="0 0 56.966 56.966">
+<path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23 s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92 c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17 s-17-7.626-17-17S14.61,6,23.984,6z"/>
+</svg>
+</button>
+</form>
+</div>
+<div class="flexcenter" data-dismiss="modal" aria-label="Close" style="margin-top:15px;">
+<div class="batal color-1">Batal</div><div class="close-btn bgcolor-1"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="custom-modal1">
+<div class="modal left fade bgmodalcolor1" id="lapor" role="dialog" aria-labelledby="lapor" aria-hidden="true" data-backdrop="false">
+<div class="modal-dialog bgwhite" role="document">
+<div class="modal-absolute bggrey1 bordergrey1">
+<div class="modalhead bgcolor-1 flexcenter"><h1>Kontak & Pengaduan</h1></div>
+<div class="inner-modal">
+<div class="withscroll">
+
+
+
+		</div>
+</div>
+<div class="modalfoot bgwhite bordergrey1 flexcenter" data-dismiss="modal" aria-label="Close">
+<div class="close-btn bgcolor-1"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="totop">
+<nav class="main-nav">
+<div class="full-wrapper clearfix">
+<div class="toBack flexcenter hover-height" onclick="goBack()">
+<svg viewBox="0 0 24 24" class="hover-height"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"/></svg>
+</div>
+<div id="ScrollToTop" class="flexcenter hover-height">
+<svg viewBox="0 0 96 96" class="hover-height"><path d="M82.6074,62.1072,52.6057,26.1052a6.2028,6.2028,0,0,0-9.2114,0L13.3926,62.1072a5.999,5.999,0,1,0,9.2114,7.6879L48,39.3246,73.396,69.7951a5.999,5.999,0,1,0,9.2114-7.6879Z"/></svg>
+</div>
+</div>
+</nav>
+</div>
+
+<script type="text/javascript">
+function goBack() {
+window.history.back();
+}
+</script>
+<script>
+var tw = new Date();
+if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
+else (a=tw.getTime());
+tw.setTime(a);
+var tahun= tw.getFullYear ();
+var hari= tw.getDay ();
+var bulan= tw.getMonth ();
+var tanggal= tw.getDate ();
+var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
+var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember");
+document.getElementById("topdate").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun;
+</script>
+
+<script>
+var inc = 1000;
+
+clock();
+
+function clock() {
+const date = new Date();
+
+const hours = ((date.getHours() + 11) % 12 + 1);
+const minutes = date.getMinutes();
+const seconds = date.getSeconds();
+
+const hour = hours * 30;
+const minute = minutes * 6;
+const second = seconds * 6;
+
+document.querySelector('.hour').style.transform = `rotate(${hour}deg)`
+document.querySelector('.minute').style.transform = `rotate(${minute}deg)`
+document.querySelector('.second').style.transform = `rotate(${second}deg)`
+}
+
+setInterval(clock, inc);
+</script>
+
+<script>
+function setVmenuMode(isVmenu) {
+var vmenuBtn = document.getElementById('vmenuBtn')
+var novmenuBtn = document.getElementById('novmenuBtn')
+if(isVmenu) {
+novmenuBtn.style.display = "block"
+vmenuBtn.style.display = "none"
+} else {
+novmenuBtn.style.display = "none"
+vmenuBtn.style.display = "block"
+}
+document.body.classList.toggle("vmenumode");
+}
+</script>
+<script>  if (localStorage.getItem('theme') == 'vmenu')
+setVmenuMode()
+function setVmenuMode()
+{ let emoticon = ''
+let isVmenu = document.body.classList.toggle('vmenumode')
+if (isVmenu)
+{
+emoticon = '<div class="topleft-inner flexcenter"><img src="https://drive.google.com/uc?export=download&id=1LC86NdZzp5Wtcv8MARuFrq-X6Z_PiY4Q"/></div>'
+localStorage.setItem('theme','vmenu')
+} else {
+emoticon = '<div class="topleft-inner flexcenter"><img src="https://drive.google.com/uc?export=download&id=1LC86NdZzp5Wtcv8MARuFrq-X6Z_PiY4Q"/></div>'
+localStorage.removeItem('theme')    }
+document.getElementById('vmenuBtn').innerHTML = emoticon  }
+</script>
+
+
+<div class="menuvertical bggrey1 bordergrey1 hover-height fadeIn">
+<div class="mainmenu-container">
+<div style="position:relative;bacground:#bdbdbd;">
+</div>
+<div class="mainmenu-cover1"></div><div class="mainmenu-cover2"></div>
+</div>
+<nav class="main-nav">
+<div class="full-wrapper clearfix">
+<div class="leftpage bggrey1 hover-height">
+
+
+
+
+
+
+
+
+
+<div class="sidebar" role="navigation" style="background:transparent !important;">
+<div class="sidebar-nav navbar-collapse">
+<ul class="nav" id="side-menu">
+<div class="menu-list">
+<li class="bgwhite-trans1"><a href="#">Profil<span class='caret'></span></a>
+<ul class="nav nav-second-level">
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Tentang kami</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Sejarah</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Visi dan misi</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Sambutan</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Peta Wilyah</a></li>
+
+</ul>
+</li>
+<li class="bgwhite-trans1"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Berita terbaru</a></li>
+<li class="bgwhite-trans1"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Informasi</a></li>
+<li class="bgwhite-trans1"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Media<span class='caret'></span></a>
+<ul class="nav nav-second-level">
+
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Galleri</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Youtube</a></li>
+</ul>
+</li>
+<li class="bgwhite-trans1"><a href="#">Transfaransi</a></li>
+<li class="bgwhite-trans1"><a href="#">Data warga<span class='caret'></span></a>
+<ul class="nav nav-second-level">
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Data Wilayah Administratif</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Data Jenis Kelamin</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Data Agama</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Data Warga Negara</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Data Pekerjaan</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Data Pendidikan Ditempuh</a></li>
+<li><a href="https://sites.google.com/view/tirta-wening-padasuka/home" style="background:transparent !important;">Data Pendidikan dalam KK</a></li>
+</ul>
+</li>
+<li class="bgwhite-trans1"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Peta wilayah</a></li>
+<li class="bgwhite-trans1"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Pembangunan</a></li>
+<li class="bgwhite-trans1"><a href="https://sites.google.com/view/tirta-wening-padasuka/home">Lapak  Desa</a></li>
+
+
+</div>
+</ul>
+</div>
+</div>			
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+
+
+
+
+
+
+	<h3 class="bgcolor-1 flexcenter"><marquee loop="5">Selamat datang di Wbsite Tirta Wening Padasuka - Cimahi</marquee></h3>
+<div class="col-default">
+	<div class="statistik-row bggrad-grey1 bordergrey1">
+	<div class="stathead flexcenter">
+	<h1 class="bgcolor-1 flexcenter">Statistik Tirta Wening</h1>
+	</div>
+	<div class="statistik-inner">
+		<div class="circle-area">
+		<div class="statcircle bgwhite flexcenter">
+										
+				<div>
+									</div>
+													
+				<div>
+									</div>
+																									
+				<div>
+											
+<img class="flip-vertical-right" src="https://drive.google.com/uc?export=download&id=1sHNLXCTRtQD63KTQ_ezZxWK9fchXUP4M"/>
+<p>TOTAL</p>
+<h2 class="color-2">2941</h2>
+</div>
+</div>
+</div>
+<div class="population flexcenter">
+
+<div class="population-item flexright" style="text-align:right;width:50%;float:left;">
+<div>
+<h2>49 KK</h2>
+<h3>Terpasang</h3>
+</div>
+<p style="text-align: center; "><img src="https://drive.google.com/uc?export=download&amp;id=1NJ9lJfuLVVoQhCF5lZ5FI8RpJ9ReyiAp" style="width: 60px; height: 60px;"><br></p>
+</div>
+
+<div class="population-item flexleft" style="text-align:left;width:50%;float:right;">
+<p style="text-align: center; "><img src="https://drive.google.com/uc?export=download&amp;id=1So6uYK1kCfhoM_qviQW8M502Z2dtjHuu" style="width: 60px; height: 60px;"><br></p>
+<div>
+<h2>3 KK</h2>
+<h3>Dalam pengerjaan</h3>
+
+</div>
+</div>
+
+</div>
+<div class="statleft">
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="statleft1 statbox bgwhite flexleft bordergrey1 hover-height2">
+<p>Mitra <font class="desktop-only">Berdasarkan</font> Wilayah</p>  
+<div class="staticon bgbiru bordergrey1 flexcenter">
+<svg viewBox="0 0 24 24"><path d="M14,11.5A2.5,2.5 0 0,0 16.5,9A2.5,2.5 0 0,0 14,6.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 14,11.5M14,2C17.86,2 21,5.13 21,9C21,14.25 14,22 14,22C14,22 7,14.25 7,9A7,7 0 0,1 14,2M5,9C5,13.5 10.08,19.66 11,20.81L10,22C10,22 3,14.25 3,9C3,5.83 5.11,3.15 8,2.29C6.16,3.94 5,6.33 5,9Z"/></svg>
+</div>
+<div class="stat-arrow"></div>
+</div>
+</a>
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="statleft2 statbox bgwhite flexleft bordergrey1 hover-height2">
+<p>Layanan <font class="desktop-only">Aspirasi</font> dan Pengaduan</p>
+<div class="staticon bgorange bordergrey1 flexcenter">
+<p><img src="https://drive.google.com/uc?export=download&id=1x0ejQ23jEo5sfVN_eF4nlkIdnLI_aTXy" style="width: 32.7055px; height: 26.25px;"><br></p></div>
+<div class="stat-arrow"></div>
+</div>
+</a>
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="statleft3 statbox bgwhite flexleft bordergrey1 hover-height2">
+<p>Layanan <font class="desktop-only">publik</font>  <font class="desktop-only"></font></p>
+<div class="staticon bgtoska bordergrey1 flexcenter">
+<p><img src="https://drive.google.com/uc?export=download&id=1QiaceG3sZyDyF3HK5BnsQf-GZz1dh12W" style="width: 32.7055px; height: 26.25px;"><br></p></div>
+<div class="stat-arrow"></div>
+</div>
+</a>
+</div>
+<div class="statright">
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="statright1 statbox bgwhite flexright bordergrey1 hover-height2">
+<div class="staticon bgpink bordergrey1 flexcenter">
+<p><img src="https://drive.google.com/uc?export=download&id=1ibnc1mizVkBXhTwh8KDjkOwV7IIyfMPz" style="width: 35.7055px; height: 30.25px;"><br></p></div>
+<p>Informasi <font class="desktop-only"> </font> </p>
+<div class="stat-arrow"></div>
+</div>
+</a>
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="statright2 statbox bgwhite flexright bordergrey1 hover-height2">
+<div class="staticon bgyellow bordergrey1 flexcenter">
+<p><img src="https://drive.google.com/uc?export=download&amp;id=1_yQ7KhKLix1jO2tCGDHxisZIFKkZw_Pt" style="width: 53.25px; height: 53.25px;"><br></p>
+</div>
+<p>Transparansi <font class="desktop-only">Keuangan</font> </p> 
+<div class="stat-arrow"></div>
+</div>
+</a>
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<div class="statright3 statbox bgwhite flexright bordergrey1">
+<div class="staticon bgungu bordergrey1 flexcenter">
+<p><img src="https://drive.google.com/uc?export=download&id=1wGc8R-Bd6nEC-TNMjgqjL9OchgOcPBOr" style="width: 53.25px; height: 53.25px;"><br></p></div>
+<p><font class="desktop-only">Mitra</font><font class="mobile-only"> </font></p>
+<div class="stat-arrow"></div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<table class="table-anggaran" 
+<tr>
+
+<div class="headmod2 bgcolor-1 flexcenter" style="border-radius:5px 5px 0 0;"><h1 class="bggrey1 color-2">Mitra Tirta Wening</h1></div>
+
+
+<td style="text-align:center;font-size:95%;">RT 01</td>
+<td style="text-align:center;font-size:95%;">RT 02</td>
+<td style="text-align:center;font-size:95%;">RT 03</td>
+<td style="text-align:center;font-size:95%;">RT 04</td>
+<td style="text-align:center;font-size:95%;">RT 05</td>
+</tr>
+<tr>
+
+<td style="font-size:90%;letter-spacing:-0.3px;">8 Orang </td>
+<td style="text-align:center;font-size:95%;">9 Orang</td>
+<td style="text-align:center;font-size:95%;">7 Orang</td>
+<td style="text-align:center;font-size:95%;">12 Orang</td>
+<td style="text-align:center;font-size:95%;">5 Orang</td>
+</tr>
+</table>
+
+
+
+<div class="col-default">
+	<div class="galeri bgwhite bordergrey1">
+	<div class="rowsame margin-minlr-5">
+		<div class="judul-album flexcenter">
+		<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+		<div class="album-cover bordergrey1">
+		<img src="padasuka/images/logo.png"/>
+		</div>
+		<div class="album-title hover-width"><h1>Galeri</h1><h2>Foto</h2></div>
+		</a>
+		</div>
+		<div class="album">
+			<div class="margin-minlr-5">
+							<div class="album-col">
+				<div class="margin-lr-5">
+					<div class="galeri-border bordergrey1 hover-gal">
+					<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+					<div class="image-galeri">
+													<img src="padasuka/images/Pertemuan-warga06.jpg" alt="Album : Galeri Rama Agung ">
+							
+						<div class="absolute-title">
+							<p class="hover-height">Pertemuan dengan mitra wening </p>
+						</div>
+						<div class="hid-galeri flexcenter hover-height">
+							<p>Pertemuan dengan mitra wening</p>
+						</div>
+					</div>
+					</a>
+					</div>
+				</div>
+				</div>
+							<div class="album-col">
+				<div class="margin-lr-5">
+					<div class="galeri-border bordergrey1 hover-gal">
+					<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+					<div class="image-galeri">
+													<img src="padasuka/images/Pertemuan-warga02.jpg" alt="Album : Rama Agung">
+							
+						<div class="absolute-title">
+							<p class="hover-height">Sosialisasi pemberdayaan Air Bersih</p>
+						</div>
+						<div class="hid-galeri flexcenter hover-height">
+							<p>Sosialisasi pemberdayaan Air Bersih</p>
+						</div>
+					</div>
+					</a>
+					</div>
+				</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="col-default">
+<div class="rowsame headline forhover">
+
+<div class="headline-text bgcolor-1 color-white flexleft">
+<div class="headline-padding">
+<h1>Headline</h1>
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home">
+<h2>Panduan Layanan Pemasangan Baru</h2>
+<p>Untuk memudahkan pegerjaan pemasangan baru silahkan baca panduan di atas</p>
+</a>
+</div>
+<div class="headline-head">
+<svg viewBox="0 0 945.000000 187.000000"><g transform="translate(0.000000,187.000000) scale(0.100000,-0.100000)"><path d="M0 935 l0 -935 175 0 175 0 0 420 0 420 235 0 235 0 0 -420 0 -420 180 0 180 0 0 935 0 935 -180 0 -180 0 0 -365 0 -365 -235 0 -235 0 0 365 0 365 -175 0 -175 0 0 -935z"/><path d="M1420 935 l0 -935 495 0 495 0 0 160 0 160 -315 0 -315 0 0 250 0 250 285 0 285 0 0 155 0 155 -285 0 -285 0 0 210 0 210 310 0 310 0 0 160 0 160 -490 0 -490 0 0 -935z"/><path d="M2875 1858 c-7 -20 -415 -1837 -415 -1848 0 -6 70 -10 185 -10 167 0 185 2 185 17 0 9 19 115 42 235 l42 218 195 0 196 0 44 -235 45 -235 193 0 c106 0 193 3 193 6 0 3 -94 422 -210 930 -115 508 -210 926 -210 929 0 3 -108 5 -240 5 -184 0 -242 -3 -245 -12z m245 -395 c0 -10 29 -171 65 -358 36 -187 65 -341 65 -342 0 -2 -63 -3 -141 -3 -129 0 -140 1 -135 18 2 9 33 171 68 359 35 189 66 343 71 343 4 0 7 -8 7 -17z"/><path d="M3890 935 l0 -935 353 0 c385 1 468 9 562 55 67 32 124 95 168 182 78 153 97 276 104 663 6 306 -3 473 -32 585 -53 204 -188 341 -369 374 -36 7 -205 11 -423 11 l-363 0 0 -935z m675 633 c61 -33 100 -98 124 -208 33 -149 30 -707 -4 -855 -24 -104 -60 -165 -115 -193 -39 -19 -69 -23 -188 -29 l-142 -6 0 658 0 657 148 -4 c110 -3 155 -8 177 -20z"/><path d="M5290 935 l0 -935 495 0 495 0 0 160 0 160 -315 0 -315 0 0 775 0 775 -180 0 -180 0 0 -935z"/><path d="M6440 935 l0 -935 180 0 180 0 0 935 0 935 -180 0 -180 0 0 -935z"/><path d="M7040 935 l0 -935 171 0 171 0 -4 634 c-2 349 -2 634 -1 633 1 -1 105 -279 231 -617 127 -338 234 -623 237 -632 6 -16 25 -18 191 -18 l184 0 0 935 0 935 -172 0 -171 0 6 -637 6 -638 -88 235 c-48 129 -155 416 -237 637 l-149 403 -187 0 -188 0 0 -935z"/><path d="M8460 935 l0 -935 495 0 495 0 0 160 0 160 -315 0 -315 0 0 250 0 250 290 0 290 0 0 155 0 155 -290 0 -290 0 0 210 0 210 310 0 310 0 0 160 0 160 -490 0 -490 0 0 -935z"/></g></svg>
+</div>
+</div>
+<div class="headline-image">
+<div class="headline-image-inner">
+<img src="padasuka/images/logo.png">
+</div>
+<div class="hoverimage flexcenter">
+<div class="hoverimage-left bgcolor-1 hover-width"></div>
+
+</div>
+<div class="headline-image-border"></div>
+</div>
+</div>
+</div>
+
+
+<div class="col-default">
+<div class="headmod2 bgcolor-1 flexcenter" style="border-radius:5px 5px 0 0;"><h1 class="bggrey1 color-2">Transparansi Anggaran</h1></div>
+<div class="keuangan bggrey1 bordergrey1">
+<div class="samerow3">
+<div class="keuangan-col bgwhite bordergrey1">
+<div class="flexcenter">
+<div class="head-anggaran flexcenter"><h2>Pelaksanaan</h2></div>
+</div>
+<div class="keuangan-box">
+<h3>Pendapatan</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="40.71" class="php">
+<div class="progress-bar" role="progressbar" style="width: 40.71%" aria-valuenow="40.71" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:40.71%" data-value="40.71"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Belanja</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="38" class="php">
+<div class="progress-bar" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:38%" data-value="38"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Pembiayaan</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="0" class="php">
+<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:0%" data-value="0"></p>
+</div>
+</div>
+</div>
+<div class="keuangan-col bgwhite bordergrey1">
+<div class="flexcenter">
+<div class="head-anggaran flexcenter"><h2>Pendapatan</h2></div>
+</div>
+<div class="keuangan-box">
+<h3>Dana Desa</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="47.62" class="php">
+<div class="progress-bar" role="progressbar" style="width: 47.62%" aria-valuenow="47.62" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:47.62%" data-value="47.62"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Bagi Hasil Pajak Dan Retribusi</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="0" class="php">
+<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:0%" data-value="0"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Alokasi Dana Desa</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="34.65" class="php">
+<div class="progress-bar" role="progressbar" style="width: 34.65%" aria-valuenow="34.65" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:34.65%" data-value="34.65"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Bantuan Keuangan Kabupaten/kota</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="0" class="php">
+<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:0%" data-value="0"></p>
+</div>
+</div>
+</div>
+<div class="keuangan-col bgwhite bordergrey1">
+<div class="flexcenter">
+<div class="head-anggaran flexcenter"><h2>Pembelanjaan</h2></div>
+</div>
+<div class="keuangan-box">
+<h3>Bidang Penyelenggaran Pemerintahan Desa</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="30.26" class="php">
+<div class="progress-bar" role="progressbar" style="width: 30.26%" aria-valuenow="30.26" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:30.26%" data-value="30.26"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Bidang Pelaksanaan Pembangunan Desa</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="35.68" class="php">
+<div class="progress-bar" role="progressbar" style="width: 35.68%" aria-valuenow="35.68" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:35.68%" data-value="35.68"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Bidang Pembinaan Kemasyarakatan Desa</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp</td><td style="font-size:90%;letter-spacing:-0.3px;"></td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="7.2" class="php">
+<div class="progress-bar" role="progressbar" style="width: 7.2%" aria-valuenow="7.2" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:7.2%" data-value="7.2"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Bidang Pemberdayaan Masyarakat Desa</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp</td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="69.5" class="php">
+<div class="progress-bar" role="progressbar" style="width: 69.5%" aria-valuenow="69.5" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:69.5%" data-value="69.5"></p>
+</div>
+</div>
+<div class="keuangan-box">
+<h3>Bidang Penanggulangan Bencana, Darurat Dan Mendesak Desa</h3>
+<table class="table-anggaran" style="width:100%;">
+<tr>
+<td style="text-align:center;font-size:95%;">Anggaran</td><td style="text-align:center;font-size:95%;">Realisasi</td>
+</tr>
+<tr>
+<td style="font-size:90%;letter-spacing:-0.3px;">Rp </td><td style="font-size:90%;letter-spacing:-0.3px;">Rp </td>
+</tr>
+</table>
+<div class="progress-anggaran">
+<progress max="100" value="45.89" class="php">
+<div class="progress-bar" role="progressbar" style="width: 45.89%" aria-valuenow="45.89" aria-valuemin="0" aria-valuemax="100">
+
+</div>
+</progress>
+<p style="width:45.89%" data-value="45.89"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<style>
+.maphome .leaflet-left {left:auto !important;right:10px !important;margin-top:35px;}
+</style>
+
+<div class="col-default">
+<div class="rowsame margin-minlr-5">
+<div style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.573510614318!2d107.5301707!3d-6.8734187!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e521cd8f7929%3A0x29a2f3349e0ca64b!2skhang%20hanna!5e0!3m2!1sid!2sid!4v1697182316281!5m2!1sid!2sid" width="1399" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="font-size: 0.875rem; border-width: 0px; border-style: initial;"></iframe></div>
+</div>
+</div>
+
+</div>				</div>
+</div>
+
+
+
+<div class="col-default-nopad padding-top-6">
+<div class="footer-container bgcolor-1">
+<div class="footer-inner">
+<div class="footer-logo flexcenter">
+<img src="padasuka/images/logo.png"/>
+<div>
+<h3>Pengelolaan Air bersih</h3>
+<h2>Tirta Wening Padasuka</h2>
+</div>
+</div>
+<div class="footer-bottom flexcenter">
+<div class="footer-bottom-line"></div>				<div class="footer-address flexright">
+<div class="footer-address-inner">
+<p> Jl. Kyai H. Usman Dhomiri RT.02/RW.17,<br/>Padasuka, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40526</p>
+</div>
+</div>
+ 
+<div class="footer-right">
+
+<div class="footer-contact padding-topbottom-1 flexleft">
+<div class="contact-icon bg-color1 flexcenter">
+<svg viewBox="0 0 24 24"><path d="M19,11H21V9H19M20,15.5C18.75,15.5 17.55,15.3 16.43,14.93C16.08,14.82 15.69,14.9 15.41,15.18L13.21,17.38C10.38,15.94 8.06,13.62 6.62,10.79L8.82,8.59C9.1,8.31 9.18,7.92 9.07,7.57C8.7,6.45 8.5,5.25 8.5,4A1,1 0 0,0 7.5,3H4A1,1 0 0,0 3,4A17,17 0 0,0 20,21A1,1 0 0,0 21,20V16.5A1,1 0 0,0 20,15.5M17,9H15V11H17M13,9H11V11H13V9Z" /></svg>
+</div>
+<p>Telp.081xxxxxxx</p>
+</div>
+<div class="footer-contact padding-topbottom-1 flexleft">
+<div class="contact-icon bg-color1 flexcenter">
+<svg viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" /></svg>
+</div>
+<p>Email  tirtawening@gmail.com</p>
+</div>
+</div>
+</div>
+<div class="footer-social flexcenter" style="margin-top:10px;">
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home" target="_blank" rel="noopener">
+<div class="social-icon flexcenter">
+<svg viewBox="0 0 24 24" width="24" height="24" stroke-width="20" xmlns="http://www.w3.org/2000/svg"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325 1.42-3.592 3.5-3.592.699-.002 1.399.034 2.095.107v2.42h-1.435c-1.128 0-1.348.538-1.348 1.325v1.735h2.697l-.35 2.725h-2.348V21H20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"/></svg>
+</div>
+</a>
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home" target="_blank" rel="noopener">
+<div class="social-icon flexcenter">
+<svg viewBox="0 0 24 24" width="24" height="24" stroke-width="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"/><circle cx="11.994" cy="11.979" r="3.003"/></svg>
+</div>
+</a>
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home" target="_blank" rel="noopener">
+<div class="social-icon flexcenter">
+<svg viewBox="0 0 24 24" width="24" height="24" stroke-width="20" xmlns="http://www.w3.org/2000/svg"><path d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"/></svg>
+</div>
+</a>
+</div>
+</div>
+</div>
+
+<div class="copyright-plus bgcolor-1">
+<div class="flexcenter">
+<div class="copyright-plus-inner bgcolor-3 flexcenter">
+<div class="copyright-support flexleft">
+<div>
+<img src="padasuka/images/logo.png" height='18px'>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="copyright bgcolor-3 flexcenter">
+<div class="copyright-title flexcenter">
+<div>
+<p>
+&copy;
+<a href="https://sites.google.com/view/tirta-wening-padasuka/home" rel="noopener noreferrer" target="_blank">Webiste</a> - <a href="https://sites.google.com/view/tirta-wening-padasuka/home" rel="noopener noreferrer" target="_blank">premium</a></p>
+<p><a href="https://sites.google.com/view/tirta-wening-padasuka/home" target="blank">Tirta-Wening</a></p>
+</div>
+</div>
+</div>
+</di			</div>
+</div>
+
+
+<script src="padasuka/js/wow.min.js"></script>
+<script src="padasuka/js/slick.min.js"></script>
+<script src="padasuka/js/custom.js"></script>
+<script>
+$(document).ready(function(){
+$(".tip-top").tooltip({
+placement : 'top'
+});
+$(".tip-right").tooltip({
+placement : 'right'
+});
+$(".tip-bottom").tooltip({
+placement : 'bottom'
+});
+$(".tip-left").tooltip({
+placement : 'left'
+});
+});
+</script>
+<script type='text/javascript'>
+$(function() { $(window).scroll(function() { if($(this).scrollTop()>100) { $('#ScrollToTop').fade()} else { $('#ScrollToTop').fade();}});
+$('#ScrollToTop').click(function(){$('html,body').animate({scrollTop:0},1000);return false})});
+</script>
+</div>
+
+</div>
+
+
+</body>
+</html>
